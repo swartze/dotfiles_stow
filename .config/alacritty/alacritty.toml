@@ -1,0 +1,20 @@
+import = ["/home/lee/.config/alacritty/dracula.toml"]
+
+[font]
+size = 10
+
+[font.bold]
+family = "my-chosen-font-family"
+style = "Bold"
+
+[font.bold_italic]
+family = "my-chosen-font-family"
+style = "Bold Italic"
+
+[font.italic]
+family = "my-chosen-font-family"
+style = "Italic"
+
+[font.normal]
+family = "my-chosen-font-family"
+style = "Regular"
