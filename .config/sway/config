@@ -27,6 +27,9 @@ set $menu exec wofi --show run --allow-image
 set $lock /usr/bin/swaylock
 bindsym $mod+p exec $lock
 
+# Preffered compose key
+input * xkb_options compose:ralt
+
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
