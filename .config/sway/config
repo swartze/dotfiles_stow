@@ -6,6 +6,7 @@
 
 ### Variables
 #
+
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
 # Home row direction keys, like vim
@@ -15,6 +16,7 @@ set $up k
 set $right l
 # Your preferred terminal emulator
 set $term alacritty
+
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
@@ -23,6 +25,7 @@ set $menu exec wofi --show run --allow-image
 
 # Your preferred lock command
 set $lock /usr/bin/swaylock
+bindsym $mod+p exec $lock
 
 ### Output configuration
 #
@@ -90,9 +93,16 @@ output DP-2 pos 3840 0
     # Reload the configuration file
     bindsym $mod+Shift+c reload
 
+  bindsym $mod+Shift+r nop
+  bindsym --release $mod+Shift+r exec "swaymsg reload"
+
     # Exit sway (logs you out of your Wayland session)
     bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
 #
+# define window borders 
+  default_border pixel 2 
+  default_floating_border normal
+
 # Moving around:
 #
     # Move your focus around
@@ -205,15 +215,18 @@ mode "resize" {
 }
 bindsym $mod+r mode "resize"
 
-#
+# Autostart programs
+exec_always nm-applet --indicator
+workspace 1
+exec /usr/bin/alacritty 
+workspace 2
+exec /usr/bin/discord
+workspace 3
+exec /usr/bin/firefox --class browser
+
 # Status Bar:
 #
 # Read `man 5 sway-bar` for more information about this section.
-
-exec_always nm-applet --indicator
-exec /usr/bin/firefox
-exec /usr/bin/discord
-
 exec_always ~/bin/waybar-sway
 
 include /etc/sway/config.d/*
