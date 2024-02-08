@@ -16,6 +16,7 @@ alias ls='ls --color=auto'
 alias vi='vim'
 alias fr='trans -s fr'
 alias en='trans -t fr'
+alias dock-mount='sshfs -o default_permissions lee@192.168.122.141:/home/lee/docker/ /home/lee/scripts/docker/'
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/.git/ --work-tree=$HOME'
 PS1='[\u@\h \W]\$ '
 . "$HOME/.cargo/env"
