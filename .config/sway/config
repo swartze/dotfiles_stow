@@ -21,7 +21,7 @@ set $term alacritty
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
 #set $menu dmenu_path | dmenu | xargs swaymsg exec --
-set $menu exec wofi --show run --allow-image
+set $menu exec wofi --show drun --allow-image
 
 # Your preferred lock command
 set $lock /usr/bin/swaylock
@@ -230,6 +230,19 @@ workspace 2
 exec /usr/bin/discord
 workspace 3
 exec /usr/bin/firefox --class browser
+
+# screenshot commands
+bindsym $mod+Mod1+Control+Shift+s exec /usr/bin/grimshot save area
+bindsym Mod1+Control+s exec /usr/bin/grimshot copy area
+bindsym $mod+Control+s exec /usr/bin/grimshot copy active
+bindsym $mod+Shift+s exec /usr/bin/grimshot save active
+
+
+# clipboard manager
+#set $clipboard cliphist list | wofi --no-exec -p "copy" | cliphist decode | wl-copy
+#set $clipboard-del cliphist list | wofi --no-exec -p "delete" | cliphist delete && pkill -RTMIN+9 waybar
+#set $clipboard-del-all "rm -f ~/.cache/cliphist/db; pkill -RTMIN+9 waybar
+exec_always wl-paste --watch cliphist store
 
 # Status Bar:
 #
