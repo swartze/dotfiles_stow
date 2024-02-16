@@ -181,7 +181,7 @@ output DP-2 pos 3840 0
     bindsym $mod+Shift+space floating toggle
 
     # Swap focus between the tiling area and the floating area
-    bindsym $mod+space focus mode_toggle
+    bindsym/$mod+space focus mode_toggle
 
     # Move focus to the parent container
     bindsym $mod+a focus parent
@@ -239,9 +239,6 @@ bindsym $mod+Shift+s exec /usr/bin/grimshot save active
 
 
 # clipboard manager
-#set $clipboard cliphist list | wofi --no-exec -p "copy" | cliphist decode | wl-copy
-#set $clipboard-del cliphist list | wofi --no-exec -p "delete" | cliphist delete && pkill -RTMIN+9 waybar
-#set $clipboard-del-all "rm -f ~/.cache/cliphist/db; pkill -RTMIN+9 waybar
 exec_always wl-paste --watch cliphist store
 
 # Status Bar:
