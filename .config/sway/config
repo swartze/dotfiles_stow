@@ -33,7 +33,10 @@ input * xkb_options compose:ralt
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/lee/Pictures/synthwave-wallpaper-tsmfqmoku6efayyx.jpg fill
+# output * bg /home/lee/Pictures/books-pattern-desktop-wallpaper-2.png fill
+exec_always /home/lee/bin/swaybg_cycle /home/lee/Pictures/walls 900
+bindsym $mod+Shift+bracketright exec kill -USR1 $(pgrep -x swaybg_cycle)
+
 #
 # Example configuration:
 #
@@ -50,14 +53,17 @@ output DP-2 pos 3840 0
 #
 # Example configuration:
 #
-# exec swayidle -w \
-#          timeout 300 'swaylock -f -c 000000' \
-#          timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
-#          before-sleep 'swaylock -f -c 000000'
+ exec swayidle -w \
+          timeout 300 'swaylock -f -c 000000' \
+          timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
+          before-sleep 'swaylock -f -c 000000'
 #
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
 # resumed. It will also lock your screen before your computer goes to sleep.
+
+# start thunar daemon
+exec thunar --daemon 
 
 ### Input configuration
 #
