@@ -17,7 +17,6 @@ alias dock-mount='sshfs -o default_permissions lee@192.168.122.141:/home/lee/doc
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/.git/ --work-tree=$HOME'
 alias cat='bat'
 PS1='[\u@\h \W]\$ '
-. "$HOME/.cargo/env"
 
 parse_git_branch() {
 	git branch 2>/dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
