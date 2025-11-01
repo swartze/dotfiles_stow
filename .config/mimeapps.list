@@ -1,0 +1,27 @@
+
+[Default Applications]
+inode/directory=/usr/share/applications/nemo.desktop
+application/x-gnome-saved-search=/usr/share/applications/nemo.desktop
+x-content/unix-software=nemo-autorun-software.desktop
+image/bmp=viewnior.desktop
+image/gif=viewnior.desktop
+image/jpeg=viewnior.desktop
+image/jpg=viewnior.desktop
+image/pjpeg=viewnior.desktop
+image/png=viewnior.desktop
+image/tiff=viewnior.desktop
+image/x-bmp=viewnior.desktop
+image/x-gray=viewnior.desktop
+image/x-icb=viewnior.desktop
+image/x-ico=viewnior.desktop
+image/x-png=viewnior.desktop
+image/x-portable-anymap=viewnior.desktop
+image/x-portable-bitmap=viewnior.desktop
+image/x-portable-graymap=viewnior.desktop
+image/x-portable-pixmap=viewnior.desktop
+image/x-xbitmap=viewnior.desktop
+image/x-xpixmap=viewnior.desktop
+image/x-pcx=viewnior.desktop
+image/svg+xml=viewnior.desktop
+image/svg+xml-compressed=viewnior.desktop
+image/vnd.wap.wbmp=viewnior.desktop

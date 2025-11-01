@@ -1,0 +1,142 @@
+10/31/2025, 10:25:59 PM CDT 0: 
+
+----------------------------------------------
+10/31/2025, 10:25:59 PM CDT 1: Discord starting: {"releaseChannel":"stable","version":"0.0.113"}, modulepath: /home/lee/.config/discord/0.0.113/modules
+10/31/2025, 10:25:59 PM CDT 2: ✅ webContents.created web1 "index.html"
+10/31/2025, 10:25:59 PM CDT 3: ✅ window.created win1 "discord"
+10/31/2025, 10:25:59 PM CDT 4: ✅ webContents.did-finish-load web1
+10/31/2025, 10:26:01 PM CDT 5: ✅ webContents.created web2 ""
+10/31/2025, 10:26:01 PM CDT 6: ✅ window.created win2 "Discord"
+10/31/2025, 10:26:02 PM CDT 7: ✅ webContents.did-finish-load web2
+10/31/2025, 10:26:03 PM CDT 8: window.close win1
+10/31/2025, 10:26:03 PM CDT 9: webContents.destroyed web1
+10/31/2025, 10:26:03 PM CDT 10: window.closed win1
+10/31/2025, 10:55:49 PM CDT 11: window.close win2
+10/31/2025, 10:55:58 PM CDT 12: before-quit
+10/31/2025, 10:55:58 PM CDT 13: window.close win2
+10/31/2025, 10:55:58 PM CDT 14: webContents.destroyed web2
+10/31/2025, 10:56:01 PM CDT 0: 
+
+----------------------------------------------
+10/31/2025, 10:56:01 PM CDT 1: Discord starting: {"releaseChannel":"stable","version":"0.0.113"}, modulepath: /home/lee/.config/discord/0.0.113/modules
+10/31/2025, 10:56:01 PM CDT 2: ✅ webContents.created web1 ""
+10/31/2025, 10:56:01 PM CDT 3: ✅ window.created win1 "discord"
+10/31/2025, 10:56:01 PM CDT 4: ✅ webContents.did-finish-load web1
+10/31/2025, 10:56:02 PM CDT 5: ✅ webContents.created web2 ""
+10/31/2025, 10:56:02 PM CDT 6: ✅ window.created win2 "Discord"
+10/31/2025, 10:56:02 PM CDT 7: ✅ webContents.did-finish-load web2
+10/31/2025, 10:56:03 PM CDT 8: window.close win1
+10/31/2025, 10:56:03 PM CDT 9: webContents.destroyed web1
+10/31/2025, 10:56:03 PM CDT 10: window.closed win1
+10/31/2025, 10:56:04 PM CDT 11: ✅ webContents.did-finish-load web2
+10/31/2025, 10:57:32 PM CDT 12: before-quit
+10/31/2025, 10:57:32 PM CDT 13: window.close win2
+10/31/2025, 10:57:36 PM CDT 0: 
+
+----------------------------------------------
+10/31/2025, 10:57:36 PM CDT 1: Discord starting: {"releaseChannel":"stable","version":"0.0.113"}, modulepath: /home/lee/.config/discord/0.0.113/modules
+10/31/2025, 10:57:36 PM CDT 2: ✅ webContents.created web1 ""
+10/31/2025, 10:57:36 PM CDT 3: ✅ window.created win1 "discord"
+10/31/2025, 10:57:36 PM CDT 4: ✅ webContents.did-finish-load web1
+10/31/2025, 10:57:36 PM CDT 5: ✅ webContents.created web2 ""
+10/31/2025, 10:57:36 PM CDT 6: ✅ window.created win2 "Discord"
+10/31/2025, 10:57:37 PM CDT 7: ✅ webContents.did-finish-load web2
+10/31/2025, 10:57:37 PM CDT 8: window.close win1
+10/31/2025, 10:57:37 PM CDT 9: webContents.destroyed web1
+10/31/2025, 10:57:37 PM CDT 10: window.closed win1
+11/1/2025, 7:17:10 AM CDT 0: 
+
+----------------------------------------------
+11/1/2025, 7:17:10 AM CDT 1: Discord starting: {"releaseChannel":"stable","version":"0.0.113"}, modulepath: /home/lee/.config/discord/0.0.113/modules
+11/1/2025, 7:17:10 AM CDT 2: ✅ webContents.created web1 ""
+11/1/2025, 7:17:10 AM CDT 3: ✅ window.created win1 "discord"
+11/1/2025, 7:17:10 AM CDT 4: ✅ webContents.did-finish-load web1
+11/1/2025, 7:17:10 AM CDT 5: ✅ webContents.created web2 ""
+11/1/2025, 7:17:10 AM CDT 6: ✅ window.created win2 "Discord"
+11/1/2025, 7:17:11 AM CDT 7: ✅ webContents.did-finish-load web2
+11/1/2025, 7:17:11 AM CDT 8: window.close win1
+11/1/2025, 7:17:11 AM CDT 9: webContents.destroyed web1
+11/1/2025, 7:17:11 AM CDT 10: window.closed win1
+11/1/2025, 7:57:51 AM CDT 11: before-quit
+11/1/2025, 8:35:47 AM CDT 0: 
+
+----------------------------------------------
+11/1/2025, 8:35:47 AM CDT 1: Discord starting: {"releaseChannel":"stable","version":"0.0.113"}, modulepath: /home/lee/.config/discord/0.0.113/modules
+11/1/2025, 8:35:47 AM CDT 2: ✅ webContents.created web1 ""
+11/1/2025, 8:35:47 AM CDT 3: ✅ window.created win1 "discord"
+11/1/2025, 8:35:47 AM CDT 4: ✅ webContents.did-finish-load web1
+11/1/2025, 8:35:47 AM CDT 5: ✅ webContents.created web2 ""
+11/1/2025, 8:35:47 AM CDT 6: ✅ window.created win2 "Discord"
+11/1/2025, 8:35:47 AM CDT 7: ✅ webContents.did-finish-load web2
+11/1/2025, 8:35:48 AM CDT 8: window.close win1
+11/1/2025, 8:35:48 AM CDT 9: webContents.destroyed web1
+11/1/2025, 8:35:48 AM CDT 10: window.closed win1
+11/1/2025, 9:07:26 AM CDT 11: before-quit
+11/1/2025, 9:09:24 AM CDT 0: 
+
+----------------------------------------------
+11/1/2025, 9:09:24 AM CDT 1: Discord starting: {"releaseChannel":"stable","version":"0.0.113"}, modulepath: /home/lee/.config/discord/0.0.113/modules
+11/1/2025, 9:09:24 AM CDT 2: ✅ webContents.created web1 ""
+11/1/2025, 9:09:24 AM CDT 3: ✅ window.created win1 "discord"
+11/1/2025, 9:09:24 AM CDT 4: ✅ webContents.did-finish-load web1
+11/1/2025, 9:09:24 AM CDT 5: ✅ webContents.created web2 ""
+11/1/2025, 9:09:24 AM CDT 6: ✅ window.created win2 "Discord"
+11/1/2025, 9:09:25 AM CDT 7: ✅ webContents.did-finish-load web2
+11/1/2025, 9:09:25 AM CDT 8: window.close win1
+11/1/2025, 9:09:25 AM CDT 9: webContents.destroyed web1
+11/1/2025, 9:09:25 AM CDT 10: window.closed win1
+11/1/2025, 9:29:41 AM CDT 11: before-quit
+11/1/2025, 9:30:28 AM CDT 0: 
+
+----------------------------------------------
+11/1/2025, 9:30:28 AM CDT 1: Discord starting: {"releaseChannel":"stable","version":"0.0.113"}, modulepath: /home/lee/.config/discord/0.0.113/modules
+11/1/2025, 9:30:28 AM CDT 2: ✅ webContents.created web1 ""
+11/1/2025, 9:30:28 AM CDT 3: ✅ window.created win1 "discord"
+11/1/2025, 9:30:28 AM CDT 4: ✅ webContents.did-finish-load web1
+11/1/2025, 9:30:28 AM CDT 5: ✅ webContents.created web2 ""
+11/1/2025, 9:30:28 AM CDT 6: ✅ window.created win2 "Discord"
+11/1/2025, 9:30:29 AM CDT 7: ✅ webContents.did-finish-load web2
+11/1/2025, 9:30:29 AM CDT 8: window.close win1
+11/1/2025, 9:30:29 AM CDT 9: webContents.destroyed web1
+11/1/2025, 9:30:29 AM CDT 10: window.closed win1
+11/1/2025, 9:32:05 AM CDT 11: before-quit
+11/1/2025, 9:32:56 AM CDT 0: 
+
+----------------------------------------------
+11/1/2025, 9:32:56 AM CDT 1: Discord starting: {"releaseChannel":"stable","version":"0.0.113"}, modulepath: /home/lee/.config/discord/0.0.113/modules
+11/1/2025, 9:32:56 AM CDT 2: ✅ webContents.created web1 ""
+11/1/2025, 9:32:56 AM CDT 3: ✅ window.created win1 "discord"
+11/1/2025, 9:32:56 AM CDT 4: ✅ webContents.did-finish-load web1
+11/1/2025, 9:32:56 AM CDT 5: ✅ webContents.created web2 ""
+11/1/2025, 9:32:56 AM CDT 6: ✅ window.created win2 "Discord"
+11/1/2025, 9:32:57 AM CDT 7: ✅ webContents.did-finish-load web2
+11/1/2025, 9:32:57 AM CDT 8: window.close win1
+11/1/2025, 9:32:57 AM CDT 9: webContents.destroyed web1
+11/1/2025, 9:32:57 AM CDT 10: window.closed win1
+11/1/2025, 9:42:30 AM CDT 0: 
+
+----------------------------------------------
+11/1/2025, 9:42:30 AM CDT 1: Discord starting: {"releaseChannel":"stable","version":"0.0.113"}, modulepath: /home/lee/.config/discord/0.0.113/modules
+11/1/2025, 9:42:30 AM CDT 2: ✅ webContents.created web1 ""
+11/1/2025, 9:42:30 AM CDT 3: ✅ window.created win1 "discord"
+11/1/2025, 9:42:31 AM CDT 4: ✅ webContents.did-finish-load web1
+11/1/2025, 9:42:31 AM CDT 5: ✅ webContents.created web2 ""
+11/1/2025, 9:42:31 AM CDT 6: ✅ window.created win2 "Discord"
+11/1/2025, 9:42:31 AM CDT 7: ✅ webContents.did-finish-load web2
+11/1/2025, 9:42:32 AM CDT 8: window.close win1
+11/1/2025, 9:42:32 AM CDT 9: webContents.destroyed web1
+11/1/2025, 9:42:32 AM CDT 10: window.closed win1
+11/1/2025, 9:44:48 AM CDT 11: before-quit
+11/1/2025, 9:45:34 AM CDT 0: 
+
+----------------------------------------------
+11/1/2025, 9:45:34 AM CDT 1: Discord starting: {"releaseChannel":"stable","version":"0.0.113"}, modulepath: /home/lee/.config/discord/0.0.113/modules
+11/1/2025, 9:45:34 AM CDT 2: ✅ webContents.created web1 ""
+11/1/2025, 9:45:34 AM CDT 3: ✅ window.created win1 "discord"
+11/1/2025, 9:45:34 AM CDT 4: ✅ webContents.did-finish-load web1
+11/1/2025, 9:45:34 AM CDT 5: ✅ webContents.created web2 ""
+11/1/2025, 9:45:34 AM CDT 6: ✅ window.created win2 "Discord"
+11/1/2025, 9:45:34 AM CDT 7: ✅ webContents.did-finish-load web2
+11/1/2025, 9:45:35 AM CDT 8: window.close win1
+11/1/2025, 9:45:35 AM CDT 9: webContents.destroyed web1
+11/1/2025, 9:45:35 AM CDT 10: window.closed win1
