@@ -1,20 +1,22 @@
-import = ["/home/lee/.config/alacritty/dracula.toml"]
 
 [font]
 size = 10
 
 [font.bold]
-family = "my-chosen-font-family"
+family = "SauceCodeProNerdFont"
 style = "Bold"
 
 [font.bold_italic]
-family = "my-chosen-font-family"
+family = "SauceCodeProNerdFont"
 style = "Bold Italic"
 
 [font.italic]
-family = "my-chosen-font-family"
+family = "SauceCodeProNerdFont"
 style = "Italic"
 
 [font.normal]
-family = "my-chosen-font-family"
+family = "SauceCodeProNerdFont"
 style = "Regular"
+
+[general]
+import = ["/home/lee/.config/alacritty/dracula.toml"]
