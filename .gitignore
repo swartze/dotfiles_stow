@@ -1,1 +1,6 @@
 plugins/
+.config/mozilla/
+.config/Electron/
+.config/discord/
+.config/nvim/
+.config/hypr/
