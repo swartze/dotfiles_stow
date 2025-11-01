@@ -5,9 +5,6 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-# Set up Node Version Manager
-source /usr/share/nvm/init-nvm.sh
-
 # connect to ssh-agent
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
@@ -20,8 +17,6 @@ alias dock-mount='sshfs -o default_permissions lee@192.168.122.141:/home/lee/doc
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/.git/ --work-tree=$HOME'
 alias cat='bat'
 PS1='[\u@\h \W]\$ '
-. "$HOME/.cargo/env"
-source /usr/share/nvm/init-nvm.sh
 
 parse_git_branch() {
 	git branch 2>/dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
@@ -51,3 +46,7 @@ export PATH="$PATH:$(go env GOBIN):$(go env GOPATH)/bin"
 export PATH="$PATH:/home/lee/bin/"
 
 eval "$(rbenv init - bash)"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
